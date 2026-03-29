@@ -1,0 +1,91 @@
+{
+  "model_path": "/Volumes/T9/credit_ml/corrected_pipeline/models/company_credit_rating_with_financial_ratios_final_model.joblib",
+  "scaler_path": "/Volumes/T9/credit_ml/corrected_pipeline/models/company_credit_rating_with_financial_ratios_scaler.joblib",
+  "feature_columns": [
+    "Current Ratio",
+    "Long-term Debt / Capital",
+    "Debt/Equity Ratio",
+    "Gross Margin",
+    "Operating Margin",
+    "EBIT Margin",
+    "EBITDA Margin",
+    "Pre-Tax Profit Margin",
+    "Net Profit Margin",
+    "Asset Turnover",
+    "ROE - Return On Equity",
+    "Return On Tangible Equity",
+    "ROA - Return On Assets",
+    "ROI - Return On Investment",
+    "Operating Cash Flow Per Share",
+    "Free Cash Flow Per Share"
+  ],
+  "feature_importances_top20": [
+    [
+      "Pre-Tax Profit Margin",
+      0.13415104150772095
+    ],
+    [
+      "ROI - Return On Investment",
+      0.08911322802305222
+    ],
+    [
+      "Long-term Debt / Capital",
+      0.08196648210287094
+    ],
+    [
+      "ROE - Return On Equity",
+      0.07182956486940384
+    ],
+    [
+      "Debt/Equity Ratio",
+      0.0699087455868721
+    ],
+    [
+      "Net Profit Margin",
+      0.05807957053184509
+    ],
+    [
+      "Gross Margin",
+      0.055981993675231934
+    ],
+    [
+      "Asset Turnover",
+      0.05568632856011391
+    ],
+    [
+      "Current Ratio",
+      0.05508793517947197
+    ],
+    [
+      "EBITDA Margin",
+      0.05415061116218567
+    ],
+    [
+      "Operating Margin",
+      0.0504937581717968
+    ],
+    [
+      "EBIT Margin",
+      0.04988877475261688
+    ],
+    [
+      "ROA - Return On Assets",
+      0.04896751046180725
+    ],
+    [
+      "Free Cash Flow Per Share",
+      0.04540013521909714
+    ],
+    [
+      "Return On Tangible Equity",
+      0.04396209865808487
+    ],
+    [
+      "Operating Cash Flow Per Share",
+      0.03533223643898964
+    ]
+  ],
+  "summary_report": "/Volumes/T9/credit_ml/corrected_pipeline/summary_report_improved.csv",
+  "holdout_report": "/Volumes/T9/credit_ml/corrected_pipeline/reports/company_credit_rating_with_financial_ratios_holdout_report.json",
+  "benchmark_holdout_acc": 0.8283261802575107
+}
