@@ -66,3 +66,5 @@ JSON body:
 ```
 
 Return includes predicted label and `benchmark_holdout_acc`.
+
+Credit: https://github.com/Swarnendu-Bhattacharjee/OmegaSquared/tree/main
