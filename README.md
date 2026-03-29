@@ -16,12 +16,6 @@
 - **Original**: 51.1% accuracy (random baseline)
 - **Expected (per Omega² paper)**: AUC > 0.93, Accuracy >> 50%
 
-## Usage
-
-```bash
-python corrected_pipeline/run_improved_xgb.py
-```
-
 ## Post-run outputs
 
 - `corrected_pipeline/summary_report_improved.csv`
